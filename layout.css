@@ -1,0 +1,22 @@
+*{margin:0;padding:0;box-sizing:border-box;-webkit-text-size-adjust: none}
+@media only screen and (min-width: 950px){#site{width:50%}}
+@media only screen and (max-width: 949px)and (min-width: 650px){#site{width:75%}}
+@media only screen and (max-width: 649px){#site{width:100%}}
+body{color:#000;font-family: Sabon, Garamond, serif;position:relative;font-weight:100;letter-spacing: 0.025rem;text-align:left}
+#site{position:relative;margin:0.5rem auto 0.5rem auto;padding:0 1rem 0 1rem}
+p{text-align:justify}
+.head{display: inline-grid;grid-template-columns: auto auto;grid-template-rows: auto;gap:0.5rem;padding:0}
+.wrapper {padding:0 0 0 0.5rem;width:auto;display: grid;grid-template-columns: auto;grid-template-rows: auto}
+.cornerLT {grid-column: col 1;grid-row: row 1}
+.cornerRT {grid-column: col 3;grid-row: row 1}
+.content {grid-column: col 2;grid-row: row 2}
+.cornerLB {grid-column: col 1;grid-row: row 3}
+.cornerRB {grid-column: col 3;grid-row: row 3}
+.sector{padding:0 0 1rem 0;display:block}
+.nav img{width:auto;height:5rem;margin:0;padding:0.5rem 0 0.5rem 0}
+p,h1,h2{margin: 0;padding:0;line-height:1.4rem;font-size:1.1rem;font-weight:100}
+h1,h2{text-transform:uppercase}
+a{text-decoration:none;font-weight:400}
+a:hover,a:focus,a:link,a:active {color:rgba(0, 0, 0, 1)}
+a:visited{color:rgba(128, 128, 128, 1)}
+.foot,.navigator{text-align:center;padding:0.5rem 0 0.5rem 0}
